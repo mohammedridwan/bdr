@@ -7,6 +7,11 @@ div
 	width:100px;
 	text-align:center;
 }*/
+@-webkit-keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
 *
 {background-color:#F4F4F4;
 
@@ -19,4 +24,11 @@ width:150px;
 text-align:center;
 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 font-size:18px;
-color:#FFF;}
+color:#FFF;
+animation-direction:alternate;
+-webkit-animation:myfirst 5s;}
+
+img
+{
+	animation-direction:alternate;
+}
